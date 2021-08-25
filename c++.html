@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>learn english</title>
+
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .btn{
+            
+            background-color: rgb(13, 110, 0);
+            border: 0px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 5px 3px rgba(0,0,0,.35);
+            color: white;
+        }
+
+body
+{
+    background: url("back.png") no-repeat center center fixed;
+}
+#title{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255, 232, 130);
+    margin: -8px;
+    box-shadow: 0px 5px 20px 1px rgba(0,0,0,.35);
+    position: fixed;
+    z-index: 200;
+}
+
+#back{
+    position: absolute;
+    transform: translateY(100%);
+}
+.img{
+    box-shadow: 0px 5px 20px 1px rgba(0,0,0,.35);
+    border-radius: 20px;
+}
+.details{
+    box-shadow: 0px 10px 20px 1px rgba(0,0,0,.35);
+    border-radius: 20px;
+    width: 70%;
+    background-color: rgb(160, 123, 20);
+    padding: 10px;
+    color: white;
+}
+@media only screen and (min-width: 1489px) {
+  body{
+      background-image: none;
+      background-color: none;
+  }
+}
+    </style>
+
+<style>
+        .pn-ProductNav_Wrapper {
+  position: relative;
+  padding: 0 11px;
+}
+
+.pn-ProductNav {
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  white-space: nowrap;
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  position: relative;
+}
+.js .pn-ProductNav {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+.js .pn-ProductNav::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_Contents {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_Link {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.2em;
+  font-family: -apple-system, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+  margin-left: 11px;
+  padding-left: 11px;
+  border-left: 1px solid #eee;
+}
+.pn-ProductNav_Link[aria-selected=true] {
+  color: #111;
+}
+
+.pn-Advancer {
+  /* Reset the button */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pn-Advancer:focus {
+  outline: 0;
+}
+.pn-Advancer:hover {
+  cursor: pointer;
+}
+
+.pn-Advancer_Left {
+  left: 0;
+}
+[data-overflowing=both] ~ .pn-Advancer_Left, [data-overflowing=left] ~ .pn-Advancer_Left {
+  opacity: 1;
+}
+
+.pn-Advancer_Right {
+  right: 0;
+}
+[data-overflowing=both] ~ .pn-Advancer_Right, [data-overflowing=right] ~ .pn-Advancer_Right {
+  opacity: 1;
+}
+
+.pn-Advancer_Icon {
+  width: 20px;
+  height: 44px;
+  fill: #bbb;
+}
+.title-app{
+            color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    
+<div id="title" align="center">
+    <a href="index.html"><div align="left" id="back">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <g id="Icon_8_">
+                <g>
+                    <path d="M427,234.625H167.296l119.702-119.702L256,85L85,256l171,171l29.922-29.924L167.296,277.375H427V234.625z"/>
+                </g>
+            </g>
+            </svg>
+    </div></a>
+    <h2>learn <br> programming</h2>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div align="center">
+    <img src="icons/c++.png" width="100px" height="100px" class="img">
+    <br>
+    <h3>c++</h3>
+    <br>
+    <br>
+    <details class="details">
+        <summary >Details</summary>
+        <br>
+        C++ is a general-purpose, procedural programming language that was developed as an extension of the C language. Being a low-level, object-oriented language, it provides a powerful control on the system resources and memory to the developers. A programmer can use C++ not only for the development of desktop applications but also for systems, browsers, games, and so much more. To edit and debug the source code of C or C++, you can use IDEs like Eclipse, NetBeans, Qt Creator, Visual Studio, and XCode. Some popular applications like Adobe Creative Suite, MS Office, and Google Chrome are developed using C++.
+    </details>
+    <br>
+    <br>
+    <br>
+    <a href="https://www.youtube.com/watch?v=lPd13fsU-CQ&list=PLzMcBGfZo4-lmGC8VW0iu6qfMHjy7gLQ3"><button class="btn">get course</button></a>
+</div>
+
+        <script>
+            var SETTINGS = {
+    navBarTravelling: false,
+    navBarTravelDirection: "",
+   navBarTravelDistance: 150
+}
+
+document.documentElement.classList.remove("no-js");
+document.documentElement.classList.add("js");
+
+// Out advancer buttons
+var pnAdvancerLeft = document.getElementById("pnAdvancerLeft");
+var pnAdvancerRight = document.getElementById("pnAdvancerRight");
+
+var pnProductNav = document.getElementById("pnProductNav");
+var pnProductNavContents = document.getElementById("pnProductNavContents");
+
+pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+
+// Handle the scroll of the horizontal container
+var last_known_scroll_position = 0;
+var ticking = false;
+
+function doSomething(scroll_pos) {
+    pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+}
+
+pnProductNav.addEventListener("scroll", function() {
+    last_known_scroll_position = window.scrollY;
+    if (!ticking) {
+        window.requestAnimationFrame(function() {
+            doSomething(last_known_scroll_position);
+            ticking = false;
+        });
+    }
+    ticking = true;
+});
+
+
+pnAdvancerLeft.addEventListener("click", function() {
+  // If in the middle of a move return
+    if (SETTINGS.navBarTravelling === true) {
+        return;
+    }
+    // If we have content overflowing both sides or on the left
+    if (determineOverflow(pnProductNavContents, pnProductNav) === "left" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
+        // Find how far this panel has been scrolled
+        var availableScrollLeft = pnProductNav.scrollLeft;
+        // If the space available is less than two lots of our desired distance, just move the whole amount
+        // otherwise, move by the amount in the settings
+        if (availableScrollLeft < SETTINGS.navBarTravelDistance * 2) {
+            pnProductNavContents.style.transform = "translateX(" + availableScrollLeft + "px)";
+        } else {
+            pnProductNavContents.style.transform = "translateX(" + SETTINGS.navBarTravelDistance + "px)";
+        }
+        // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
+        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition");
+        // Update our settings
+        SETTINGS.navBarTravelDirection = "left";
+        SETTINGS.navBarTravelling = true;
+    }
+    // Now update the attribute in the DOM
+    pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+});
+
+pnAdvancerRight.addEventListener("click", function() {
+    // If in the middle of a move return
+    if (SETTINGS.navBarTravelling === true) {
+        return;
+    }
+    // If we have content overflowing both sides or on the right
+    if (determineOverflow(pnProductNavContents, pnProductNav) === "right" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
+        // Get the right edge of the container and content
+        var navBarRightEdge = pnProductNavContents.getBoundingClientRect().right;
+        var navBarScrollerRightEdge = pnProductNav.getBoundingClientRect().right;
+        // Now we know how much space we have available to scroll
+        var availableScrollRight = Math.floor(navBarRightEdge - navBarScrollerRightEdge);
+        // If the space available is less than two lots of our desired distance, just move the whole amount
+        // otherwise, move by the amount in the settings
+        if (availableScrollRight < SETTINGS.navBarTravelDistance * 2) {
+            pnProductNavContents.style.transform = "translateX(-" + availableScrollRight + "px)";
+        } else {
+            pnProductNavContents.style.transform = "translateX(-" + SETTINGS.navBarTravelDistance + "px)";
+        }
+        // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
+        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition");
+        // Update our settings
+        SETTINGS.navBarTravelDirection = "right";
+        SETTINGS.navBarTravelling = true;
+    }
+    // Now update the attribute in the DOM
+    pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+});
+
+pnProductNavContents.addEventListener(
+    "transitionend",
+    function() {
+        // get the value of the transform, apply that to the current scroll position (so get the scroll pos first) and then remove the transform
+        var styleOfTransform = window.getComputedStyle(pnProductNavContents, null);
+        var tr = styleOfTransform.getPropertyValue("-webkit-transform") || styleOfTransform.getPropertyValue("transform");
+        // If there is no transition we want to default to 0 and not null
+        var amount = Math.abs(parseInt(tr.split(",")[4]) || 0);
+        pnProductNavContents.style.transform = "none";
+        pnProductNavContents.classList.add("pn-ProductNav_Contents-no-transition");
+        // Now lets set the scroll position
+        if (SETTINGS.navBarTravelDirection === "left") {
+            pnProductNav.scrollLeft = pnProductNav.scrollLeft - amount;
+        } else {
+            pnProductNav.scrollLeft = pnProductNav.scrollLeft + amount;
+        }
+        SETTINGS.navBarTravelling = false;
+    },
+    false
+);
+
+// Handle setting the currently active link
+pnProductNavContents.addEventListener("click", function(e) {
+  var links = [].slice.call(document.querySelectorAll(".pn-ProductNav_Link"));
+  links.forEach(function(item) {
+    item.setAttribute("aria-selected", "false");
+  })
+  e.target.setAttribute("aria-selected", "true");
+})
+
+function determineOverflow(content, container) {
+    var containerMetrics = container.getBoundingClientRect();
+    var containerMetricsRight = Math.floor(containerMetrics.right);
+    var containerMetricsLeft = Math.floor(containerMetrics.left);
+    var contentMetrics = content.getBoundingClientRect();
+    var contentMetricsRight = Math.floor(contentMetrics.right);
+    var contentMetricsLeft = Math.floor(contentMetrics.left);
+   if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
+        return "both";
+    } else if (contentMetricsLeft < containerMetricsLeft) {
+        return "left";
+    } else if (contentMetricsRight > containerMetricsRight) {
+        return "right";
+    } else {
+        return "none";
+    }
+}
+        </script>
+</body>
+</html>
